@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;padding: 0; box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 30px 50px;
+    gap: 10px 0px 5px 0;
+    background: rgb(217, 219, 223);
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    display: grid;
+    grid-gap:20px;
+}
+.container ul{
+    display: grid;
+    grid-gap:20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.container a{
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+    background: darkgrey;
+    color: black;
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 1.1rem;
+}
+.container a:hover{
+    background: black;
+    color: lightgoldenrodyellow;
+}
+.nav-section img{
+    display: grid;
+    grid-gap: 20px;
+    min-height: 400px;
+    width: 100%;
+    background: cover;
+    background-position: center;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8)
+}
+
+.about{
+    background: lightgray;
+    display: grid;
+    grid-gap: 30px;
+    padding: 0.8rem;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8)
+}
+.myImage{
+    width: auto;
+    grid-gap: 20px;
+    
+}
+.myImage img{
+    width: 70% auto;
+    height: 100% auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 47%;
+    
+}
+.text{
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 10px;
+}
+.text h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text p{
+    text-align: justify;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    height: max-content;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.skills{
+    background: lightgray;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 0.8rem;
+    display: block;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8)
+}
+.skills .allSkills{
+    background: darkgrey;
+    width: auto;
+    height: 51px;
+    margin-top: 5px;
+    margin-bottom: 20px ;
+    border-radius: 100px 0 0 100px;
+
+}
+.htm{
+    width: 80%;
+    background: #616161;
+    border-radius: 100px 0 0 100px;
+}
+
+.css{
+    width: 70%;
+    background: #616161;
+    border-radius: 100px 0 0 100px;
+}
+
+
+.bs{
+    width: 60%;
+    background: #616161;
+    border-radius: 100px 0 0 100px;
+}
+
+.js{
+    width: 30%;
+    background: #616161;
+    border-radius: 100px 0 0 100px;
+}
+
+.skills-p{
+    color: lightgoldenrodyellow;
+}
+
+.charge{
+    background: lightgray;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8)
+}
+
+.charge h1{
+    padding: 1rem;
+}
+
+.boxes{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.boxes .box{
+    display: block;
+    margin-top: 2rem;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.box:hover{
+    color: #000!important;
+    background-color: rgba(161, 156, 156, 0.548)!important;
+}
+.box h2, h3, p{
+    text-align: center;
+    padding: 1rem;
+}
+.box h2{
+    background: darkgrey;
+}
+
+.btn-1{
+    width: 100px;
+    height: 50px;
+    display: block;
+    border: none;
+    padding: 0.8rem;
+    background: darkgrey;
+    color: black;
+    margin: auto;
+    margin-top: 1rem;
+    text-transform:capitalize;
+    font-size: 1.1rem;
+}
+.btn-1:hover{
+    background: black;
+    color: lightgoldenrodyellow;
+}
+
+
+
+
+
+
